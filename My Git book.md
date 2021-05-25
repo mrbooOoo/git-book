@@ -1,4 +1,4 @@
-# My Git book
+﻿# My Git book
 #### _Commands and reminders_
 - ##### Original Git Book                        ->            [![N|Solid](https://resizeimage.net/mypic/uBSsi4T7RLX2sudt/5ONuV/1280px-git-logo-svg.png)](https://git-scm.com/book/en/v2)
 
@@ -6,7 +6,7 @@
 
 [//]: # (Comment: Just learning Markdown 😁 )
 
-## Features
+## 1. List of commands
 
 - Import a HTML file and watch it magically convert to Markdown
 - Drag and drop images (requires your Dropbox account be linked)
