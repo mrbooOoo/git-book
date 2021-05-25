@@ -1,18 +1,30 @@
 ﻿# My Git book
 #### _Commands and reminders_
-- ##### Original Git Book                        ->            [![N|Solid](https://resizeimage.net/mypic/uBSsi4T7RLX2sudt/5ONuV/1280px-git-logo-svg.png)](https://git-scm.com/book/en/v2)
+- ##### Original Git Book
+[![N|Solid](https://git-scm.com/images/logos/logomark-black@2x.png)](https://git-scm.com/book/en/v2)
 
-- [What is git?][df1] Git is a free and open source distributed version control system.
+- **[What is git?][df1]** Git is a free and open source distributed version control system.
 
 [//]: # (Comment: Just learning Markdown 😁 )
 
 ## 1. List of commands
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+| Command &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| Description |
+| ------ | ------ |
+| git init | initialization of a git repository (repo) in the current directory  |
+| git status | reports the status of the repo |
+| git add . | adds file(s) to the staging area|
+| git commit -m | commits the file(s) that are in the staging area to the repo, with a specific message that was to be added with ""|
+| git log (--oneline) | --oneline represents an optional subcommand to show the log messages in oneline; log, lists all the changes (commits) made in the repo|
+| git commit --ammend | allows to change the last made commit, the commit message or the the files that were added or changed  |
+| git branch | lists the existing branch's in the repo |
+| git branch branch_name | creates a branch from the branch we currently are without changing the HEAD pointer, we stay in the branch we are right now |
+| git switch branch_name / git checkout branch_name| changes the current branch to the branch_name we put in the command (changes the pointer HEAD)|
+| git switch - c branch_n / git checkout -b branch_n | creates a new branch and changes at the same time the HEAD pointer to the branch we just create |
+| git branch -d / git branch -D / git branch -m new_n| -d -> deletes a branch; -D -> force delete to a branch; -m -> changes the name to the currently branch|
+|  |  |
+
+
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
@@ -72,14 +84,7 @@ NODE_ENV=production node app
 Dillinger is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
 
 ## Development
 
