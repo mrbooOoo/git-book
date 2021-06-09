@@ -73,6 +73,10 @@ Here's a workflow to represent the process of committing:
 
 ![](images/comitting-process.png)
 
+In the image below it is represented a image to exemplify the structure of various commits in one branch of a repo.
+
+![](images/operations-committing.png)
+
 ## 6. Ignoring files
 Git ignore's everything inside the .gitignore file.
 <br />
@@ -81,7 +85,28 @@ E.g.:
 * foldername/ -> ignores the entire folder
 * .log -> ignores every file with the extension .log
 
+## 7. Branching
 
+Here's a workflow to represent the process of branching:
+
+![](images/operations-branching.png)
+
+In the image above we can see that from commit 2, the tree starts having more than just 1 branch to have 3 branches.
+
+## 8. Merging
+
+Here's a workflow to represent branching and merging, because there's no merging without a "little" branching before:
+
+![](images/operations-branching-merging.png)
+
+In the above image we can see two operations of merging, from commit 4 to commit 8 and commit 6 to commit 8 again, that is, a merge from the two branches existing in the tree to the branch master (also called main).
+
+
+
+
+
+________________________________________________________________
+________________________________________________________________
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
