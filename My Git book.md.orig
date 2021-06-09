@@ -1,17 +1,11 @@
-﻿<h1 align="center">My Git Book</h1>
-<h6 align="center">Commands and reminders</h6>
-
----
-
-
+﻿# My Git book
+#### _Commands and reminders_
 - ##### Original Git Book
 [![N|Solid](https://git-scm.com/images/logos/logomark-black@2x.png)](https://git-scm.com/book/en/v2)
 
 - **[What is git?][df1]** Git is a free and open source distributed version control system.
 
 [//]: # (Comment: Just learning Markdown 😁 )
-
----
 
 ## 1. List of commands
 #### In my opinion the most used in the daily basis
@@ -38,8 +32,6 @@
 | git stash pop | removes from the stash all the stashed changes |
 | git stash list | lists all the stashed changes |
 
----
-
 ## 2. Basic UNIX commands
 This UNIX commands can be helpful if we work in the git bash directly instead of a service that use's git.
 
@@ -58,24 +50,14 @@ This UNIX commands can be helpful if we work in the git bash directly instead of
 | rm -rf dir_name | removes a directory called dir_name |
 | rm file_name | removes a file or files permanently |
 
----
-
 ## 3. Configure Git
 
 * Configure the username in git associated to the repo's:
-```sh
-git config --global user.name "name"
-```
+`git config --global user.name "name"`
 * Configure the email associated to the user:
-```sh
-git config --global user.email email@email.com
-```
+`git config --global user.email email@email.com`
 * Configure the git editor:
-```sh
-git config --global core.editor <code>`
-```
-
----
+`git config --global core.editor <code>`
 
 ## 4. Graphical User Interface for Git
 GUI for Git is not only reliable, efficient, visually pleasing and stylish to use, it also makes Git operations more understandable and enjoyable. Its interface is intuitive, as it allows users to quickly perform basic actions. It even has a drag and drop feature to make your life easier. More than that, you can easily fix errors with just one click. Here are some of the GUI's for Git:
@@ -85,20 +67,19 @@ GUI for Git is not only reliable, efficient, visually pleasing and stylish to us
 * Tower
 * Ungit
 
----
-
 ## 5. The process of Committing
 
 Here's a workflow to represent the process of committing:
 
 ![](images/comitting-process.png)
 
+<<<<<<< HEAD
+=======
 In the image below it is represented a image to exemplify the structure of various commits in one branch of a repo.
 
 ![](images/operations-committing.png)
 
----
-
+>>>>>>> operations
 ## 6. Ignoring files
 Git ignore's everything inside the .gitignore file.
 <br />
@@ -106,8 +87,8 @@ E.g.:
 * .DS_Store -> ignores every file with the extension DS_Store
 * foldername/ -> ignores the entire folder
 * .log -> ignores every file with the extension .log
-
----
+<<<<<<< HEAD
+=======
 
 ## 7. Branching
 
@@ -117,8 +98,6 @@ Here's a workflow to represent the process of branching:
 
 In the image above we can see that from commit 2, the tree starts having more than just 1 branch to have 3 branches.
 
----
-
 ## 8. Merging
 
 Here's a workflow to represent branching and merging, because there's no merging without a "little" branching before:
@@ -127,14 +106,13 @@ Here's a workflow to represent branching and merging, because there's no merging
 
 In the above image we can see two operations of merging, from commit 4 to commit 8 and commit 6 to commit 8 again, that is, a merge from the two branches existing in the tree to the branch master (also called main).
 
----
 
 
+>>>>>>> operations
 
 
-
----
----
+________________________________________________________________
+________________________________________________________________
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
